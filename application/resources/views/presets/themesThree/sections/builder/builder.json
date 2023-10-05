@@ -1,0 +1,199 @@
+{
+    "theme_three_banner": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Banner sozlamalari",
+        "content": {
+            "images":{
+                "banner_image":{
+                    "size":"526x342"
+                }
+            },
+            "top_heading": "text",
+            "heading": "text",
+            "sub_heading": "text",
+            "experience": "text",
+            "banner_btn_1": "text",
+            "banner_btn_2": "text"
+
+        }
+    },
+   
+    "theme_three_about": {
+        "builder": true,
+        "name": "Litsey haqida",
+        "content": {
+            "images":{
+                "about_image":{
+                    "size":"537x683"
+                }
+
+            },
+            "top_heading": "text",
+            "heading": "text",
+            "about_btn": "text"
+        },
+        "element": {
+            "content_list": "text",
+            "description": "textarea",
+            "modal": false
+        }
+    },
+    "about_dark": {
+        "builder": false,
+        "name": "About Us Dark",
+        "content": {
+
+        }
+    },
+   
+    
+   
+    "counter": {
+        "builder": true,
+        "name": "Counter Section",
+        "content": {
+            "top_heading": "text",
+            "heading": "text"
+        },
+        "element": {
+            "title": "text",
+            "counter_digit": "text",
+            "modal": true
+        }
+    },
+
+    "team_member": {
+        "builder": true,
+        "name": "Mamuriyat",
+        "content": {
+            "top_heading": "text",
+            "heading": "text",
+            "subheading": "text"
+        },
+        "element": {
+            "images":{
+                "agent_image":{
+                    "size":"306x398"
+                }
+            },
+            "title": "text",
+            "email":"text",
+            "description": "textarea",
+            "facebook_icon":"icon",
+            "facebook_link":"text",
+            "instagram_icon":"icon",
+            "instagram_link":"text",
+            "twitter_icon":"icon",
+            "twitter_link":"text",
+            "modal": true
+        }
+    },
+    "testimonial": {
+        "builder": true,
+        "name": "Fikrlar",
+        "content": {
+            "top_heading": "text",
+            "heading": "text",
+            "subheading": "text"
+        },
+        "element": {
+            "images":{
+                "testimonial_image":{
+                    "size":"256x244"
+                }
+            },
+            "title": "text",
+            "designation": "text",
+            "description": "textarea",
+            "star_count": "text",
+            "modal": true
+        }
+    },
+    "policy_pages": {
+        "builder": false,
+        "no_selection":true,
+        "name": "Maxfiylik siyosati",
+        "element": {
+            "title": "text",
+            "details": "textarea-rich",
+            "modal": false
+        }
+    },
+   
+    "blog": {
+        "builder": true,
+        "name": "Yangiliklar",
+        "content": {
+            "top_heading": "text",
+            "heading": "text",
+            "sub_heading": "text"
+        },
+        "element": {
+            "images":{
+                "blog_image":{
+                    "size":"1000x666",
+                    "thumb":"416x282"
+                }
+            },
+            "title": "text",
+            "description": "textarea-rich",
+            "blog_btn": "text",
+            "modal": false
+        }
+    },
+    
+    
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Ijtimoiy tarmoqlar",
+        "element": {
+            "title": "text",
+            "social_icon": "icon",
+            "url": "text",
+            "modal": false
+        }
+    },
+    "contact_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Aloqa",
+        "content": {
+            "images":{
+                "contact_image":{
+                    "size":"637x652"
+
+                }
+            },
+            "title": "text",
+            "short_description": "text",
+            "email_address": "text",
+            "contact_details": "text",
+            "contact_number": "text",
+            "latitude": "text",
+            "longitude": "text",
+            "website_footer": "textarea-rich"
+        }
+    },
+    "footer_important_links": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Footer - Important Links",
+        "element": {
+            "title": "text",
+            "url": "text",
+            "modal": true
+        }
+    },
+    "footer_company_links": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Footer - Company Links",
+        "element": {
+            "title": "text",
+            "url": "text",
+            "modal": true
+        }
+    }
+}

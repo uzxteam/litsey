@@ -1,0 +1,132 @@
+.login_area {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 999;
+}
+.login {
+    width: 440px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+    position: relative;
+}
+.login__header {
+    padding: 5px 0;
+}
+.login__header h2 {
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 600;
+}
+.login__header .title-two {
+    font-size: 25px;
+}
+.login__header p {
+    color: hsl(0deg, 2%, 49%);
+}
+.login__body h4 {
+    text-align: center;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+.login__body .field {
+    position: relative;
+}
+.login__body .field input {
+    width: 100%;
+    display: inline-block;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 15px;
+    padding-right: 60px;
+}
+.login__body .field .show-pass {
+    position: absolute;
+    right: 16px;
+    top: 35%;
+}
+.remember {
+    color: #9a9a9a;
+    font-weight: 500;
+}
+#remember {
+    position: relative;
+    top: 1px;
+    accent-color: #00adad;
+}
+label {
+    margin-bottom: 0 !important;
+}
+.login__footer {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login__footer .remember_wrapper input {
+    margin-right: 5px;
+}
+.login__footer .remember_wrapper span {
+    color: rgba(29, 29, 29, 0.6509803922);
+}
+.login__footer a {
+    color: #979797;
+    font-weight: 500;
+}
+.login__footer a:hover {
+    color: #00adad;
+    text-decoration: underline;
+}
+.sign-in {
+    display: block;
+    width: 100%;
+    width: 100%;
+    display: inline-block;
+    margin: 10px 0 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 17px;
+    background: #00adad;
+    color: #fff;
+}
+.sign-in:hover {
+    background: #48388d;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    border: 1px solid transparent;
+}
+@media (max-width: 768px) {
+    .login_area {
+        padding: 50px 0;
+    }
+    .login {
+        max-width: 100%;
+    }
+    .login::before {
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    .login {
+        padding: 25px;
+        width: 85%;
+    }
+    .login::before {
+        left: 0;
+    }
+}
+@keyframes anim {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
